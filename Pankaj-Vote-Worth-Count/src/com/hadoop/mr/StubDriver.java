@@ -23,7 +23,7 @@ public class StubDriver extends Configured implements Tool {
 	  /*
 	   * Job 1
 	   */
-	System.out.println("Inside Run method");
+	System.out.println("Inside Run method of test branch");
 	  Configuration conf = getConf();
 	  FileSystem fs = FileSystem.get(conf);
 	  Job job = new Job(conf, "Job1");
